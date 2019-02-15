@@ -1,0 +1,49 @@
+name: Expansion Panel Block
+machine_name: expansion-panel
+type: pdb
+description: 'Expansion Panel Block'
+package: React
+# version: '1.0.0'
+# core: '8.x'
+module_status: active
+presentation: react_custom
+configuration:
+  panel_summary_1:
+    type: textfield
+    title: 'Panel Summary 1'
+    default_value: ''
+    required: true
+  panel_details_1:
+    type: textarea
+    title: 'Panel Details 1'
+    default_value: ''
+    required: true
+  panel_summary_2:
+    type: textfield
+    title: 'Panel Summary 2'
+    default_value: ''
+    required: true
+  panel_details_2:
+    type: textarea
+    title: 'Panel Details 2'
+    default_value: ''
+    required: true
+  panel_summary_3:
+    type: textfield
+    title: 'Panel Summary 3'
+    default_value: ''
+    required: true
+  panel_details_3:
+    type: textarea
+    title: 'Panel Details 3'
+    default_value: ''
+    required: true
+add_js:
+  footer:
+    'dist/main.js': {}
+
+# Information added by Drupal.org packaging script on 2016-11-17
+version: '8.x-1.0-alpha6'
+core: '8.x'
+project: 'pdb'
+datestamp: 1479397524
